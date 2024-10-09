@@ -1,59 +1,65 @@
+/* Color palette : #243642 / #387478 / #629584 / #E2F1E7 */
+
 h1 {
-    color: purple;
-    background-color: yellow;
-    font-size: large;
+    color: #243642;
+    font-size: xx-large;
     text-align: center;
 }
 
+/* Spécifique accueil */
 table,
 th,
 td {
     border: 1px solid black;
 }
+/* Fin spécifique accueil */
+
 
 header {
-    background-color: aquamarine;
+    background-color: #629584;
+    font-size: large;
+    padding: 1%;
+    border-radius: 3rem;
+    opacity: 0.97;
+
+    display:flex;
+    flex-direction: column;
+    column-gap: 6rem;
+    
 }
+
 
 nav {
-    background-color: yellow;
     text-align: center;
-    width: 25%;
 }
 
-#indexLink {
-
-    color: blue;
-}
-
-#cvLink {
-
-    color: blueviolet
+.link {
+    color: #E2F1E7;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 body {
-    background-color: azure;
+    background-color: #E2F1E7;
+    margin: auto;
+    /* word-break: break-word; */
 }
 
 section {
 
-    background-color: blue;
-    
-}
-
-#hobbyList {
-
-    background-color: blueviolet;
-}
-
-#diplomeList {
-
-    background-color: blueviolet;
+    color: #243642;
+    list-style-position: outside;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 footer {
 
-    background-color: black;
+    background-color: #629584;
+    font-size: large;
     text-align: center;
+    padding: 1%;
+    border-radius: 3rem;
+    opacity: 0.97;
 }
-
