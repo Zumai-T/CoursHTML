@@ -1,8 +1,59 @@
 h1 {
-color: blueviolet;
-font-size: large;
+    color: purple;
+    background-color: yellow;
+    font-size: large;
+    text-align: center;
 }
 
-table, th, td {
-border: 1px solid black; 
+table,
+th,
+td {
+    border: 1px solid black;
 }
+
+header {
+    background-color: aquamarine;
+}
+
+nav {
+    background-color: yellow;
+    text-align: center;
+    width: 25%;
+}
+
+#indexLink {
+
+    color: blue;
+}
+
+#cvLink {
+
+    color: blueviolet
+}
+
+body {
+    background-color: azure;
+}
+
+section {
+
+    background-color: blue;
+    
+}
+
+#hobbyList {
+
+    background-color: blueviolet;
+}
+
+#diplomeList {
+
+    background-color: blueviolet;
+}
+
+footer {
+
+    background-color: black;
+    text-align: center;
+}
+
